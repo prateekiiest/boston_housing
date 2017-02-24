@@ -114,3 +114,13 @@ In a terminal or command window, navigate to the top-level project directory `bo
   ```ipython notebook boston_housing.ipynb```
 
 This will open the iPython Notebook software and project file in your browser.
+
+
+
+## Contribution
+
+There is isn't much to contribute to, but still if you want to suggest a new algorithm(a better one whuch might give a better accuracy) then you are welcome. 
+First Create an Issue and state your contribution.If approved you are welcome to send a PR. 
+
+
+#### Happy Coding                                                                                           -- Prateek Chanda
