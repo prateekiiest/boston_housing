@@ -1,5 +1,5 @@
 
-<a href="https://github.com/prateekiiest/boston_housing"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork this repo" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
+<a href="https://github.com/prateekiiest/boston_housing"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://help.github.com/assets/images/site/fork-a-repo.gif" alt=" Fork this repo" data-canonical-></a>
 
 # boston_housing
 ### This project is a part of the Udacity project of Machine Learning Nanodegree Course.
@@ -84,17 +84,17 @@ The model we built is a decision tree regressor in which we varied the maximum t
 ##### Bias and Variance
 
 We have plotted 10 different graphs of decision trees performance. Based on our analysis on the graphs we have found an important relationship: The more we increase the tree depth, the more we reduce the training error, which goes down to practically zero. The training error, though, seems to find its best values around depths 6 & 5, and then starts to increase with the maximum tree depth.
-  ![Alt text](/img/perf.png)
+  ![Alt text](/perf.png)
   When max depth was 1, the model was suffering from **high bias**. The model was performing poorly not only on the test set, but also on the training set. This means that no matter how much data we give it, it does not capture the relationships and patterns in the data which can help us improve predictive performance. On the other hand, when the max depth was 10, the model was suffering from **overfitting**. In this case, the training error was virtually nil. However, the test error was still significant. The model, at this point, has **“memorized”** the training set such that the training error is low, but cannot generalize well enough to do well with unseen data.
   
   
   
 #### Model Complexity
-![Alt text](/img/modelComplexity.png)
+![Alt text](/modelComplexity.png)
 As max depth increases training errors decreases from 45 at the beginning to nearly zero but the testing error has a drastic desrease at the beginning but it will stay steady between 30 to 40. This indicates the **variance is steady and model is not generalized enough** since there are some drastic increases in max depth 6 and 12.
 The (max_depth=5) appears to yield the model that will generalize the best.Which is confirmed by calling the best_params_member of GridSearchCV which gives values in the range [5, 6] with high frequency, and sometimes 4, or 7. This is due to the random sampling in the way cross-validation is done. So we should choose the least complex model that explains the data, and I'd go with 5 here.
 
-![Alt text](/img/biasvariance.png)
+![Alt text](/biasvariance.png)
 
 #### Installation
 This project requires **Python 2.7** and the following Python libraries installed:
