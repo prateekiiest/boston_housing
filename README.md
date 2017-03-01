@@ -9,8 +9,6 @@
 
 ## Project 1: Model Evaluation & Validation
 
-[View the results online](https://review.udacity.com/#!/reviews/224809) // Well, you need to sign in to Udacity in order to review it. 
-
 ### Predicting Boston Housing Prices
 This document describes the implementation of a Machine Learning regressor that is capable of predicting Boston housing prices. The data used here is loaded in ([`sklearn.datasets.load_boston`](http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html#sklearn.datasets.load_boston)) and comes from the StatLib library which is maintained at Carnegie Mellon University. You can find more information on this dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Housing) page.
 
@@ -97,6 +95,11 @@ As max depth increases training errors decreases from 45 at the beginning to nea
 The (max_depth=5) appears to yield the model that will generalize the best.Which is confirmed by calling the best_params_member of GridSearchCV which gives values in the range [5, 6] with high frequency, and sometimes 4, or 7. This is due to the random sampling in the way cross-validation is done. So we should choose the least complex model that explains the data, and I'd go with 5 here.
 
 ![Alt text](/biasvariance.png)
+
+
+#### Results
+
+Check here - [Udacity Reviews](https://github.com/prateekiiest/boston_housing/blob/master/Udacity_Reviews_boston.pdf)
 
 #### Installation
 This project requires **Python 2.7** and the following Python libraries installed:
