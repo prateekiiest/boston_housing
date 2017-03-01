@@ -1,8 +1,9 @@
 
-### Fork this repo to contribute
-<a href="https://github.com/prateekiiest/boston_housing"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://help.github.com/assets/images/site/fork-a-repo.gif" alt=" Fork this repo" data-canonical-></a>
-
 # boston_housing
+
+<a href="https://github.com/prateekiiest/boston_housing"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://raw.githubusercontent.com/prateekiiest/boston_housing/master/House%20Gif-3.gif" alt=" Fork this repo" data-canonical-></a>
+
+
 ### This project is a part of the Udacity project of Machine Learning Nanodegree Course.
 
 
@@ -124,3 +125,8 @@ First Create an Issue and state your contribution.If approved you are welcome to
 
 
 #### Happy Coding                                                                                           -- Prateek Chanda
+
+
+### Fork this repo to contribute
+<a href="https://github.com/prateekiiest/boston_housing"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://help.github.com/assets/images/site/fork-a-repo.gif" alt=" Fork this repo" data-canonical-></a>
+
