@@ -1,9 +1,7 @@
 
 # Predicting House Prices in Boston
 
-<a href="https://github.com/prateekiiest/boston_housing"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://raw.githubusercontent.com/prateekiiest/boston_housing/master/House%20Gif-3.gif" alt=" Fork this repo" data-canonical-></a>
-
-
+-------------------------------------------------------
 
 ## Project 1: Model Evaluation & Validation
 
