@@ -1,5 +1,8 @@
 # Boston Housing
 
+## Contributing Guidelines
+----------------------------------------
+
 ## How to fork the Repo?
 * Click on 'Fork' on the top right corner of the repository page
 
